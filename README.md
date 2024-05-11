@@ -23,16 +23,17 @@ Run api.py: This will first initialize the Document-Index with the helper-functi
 
 You now have your backend-Endpoint ready.
 
-`Note: In a scalable scenarion you will want to use a Vector-Database instead of storing the embeddings as files. `
+`Note: In a scalable scenario you will want to use a Vector-Database instead of storing the embeddings as files. `
 
 # How to run
 I recommend using two terminal-windows: one for Backend and one for Frontend
 
-To start the Frontend run:
+To boot up the Backend run:
 `python3 api.py`
 
-To start the Frontend run:
-`npm run dev`
+To install the Frontend run: `npm install` (on the the first-run only)
+
+To start the Frontend run `npm run dev`
 
 # Special Thanks
 Special Thanks go out to the amazing work of the open-source community, making this technology available for everyone.
